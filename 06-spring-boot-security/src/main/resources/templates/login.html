@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css" crossorigin="anonymous">
+    <title>Login</title>
+
+    <style>
+        body{
+            background-color: #3e3e3e ;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <form class="form-signin" action="/login" method="post">
+        <h2 class="form-signin-heading">Book Store</h2>
+        <p>
+            <label for="username" class="sr-only">username</label>
+            <input type="text" id="username" name="username"
+                   class="form-control" placeholder="username"
+                   required="" autofocus="">
+        </p>
+
+        <p>
+            <label for="password" class="sr-only">password</label>
+            <input type="password" id="password" name="password"
+                   class="form-control" placeholder="password"
+                   required="" autofocus="">
+        </p>
+
+        <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+    </form>
+
+    <p class="text-center">
+        <a href="/registration">Create account</a>
+    </p>
+
+</div>
+
+
+</body>
+</html>
